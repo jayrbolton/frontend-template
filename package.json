@@ -1,0 +1,29 @@
+{
+  "name": "jrb-frontend-template-changeme",
+  "version": "0.0.1",
+  "description": "One page app template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo TODO",
+    "dev": "parcel src/index.html",
+    "build": "parcel build --out-dir docs src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayrbolton/frontend-template"
+  },
+  "keywords": [],
+  "author": "Jay R Bolton <jayrbolton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayrbolton/frontend-template/issues"
+  },
+  "homepage": "https://github.com/jayrbolton/frontend-template#readme",
+  "dependencies": {
+    "preact": "10.3.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}
